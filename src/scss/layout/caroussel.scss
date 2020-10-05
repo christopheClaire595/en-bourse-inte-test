@@ -1,0 +1,59 @@
+.carousel{
+
+	margin-bottom: 50px;
+	margin-top:60px;
+
+	&-indicators li{
+		background: $grey;
+		width: 33px;
+		height: 5px;
+		border: none;
+		border-radius: 10px;
+
+		&.active{
+			background: $green-dark;
+		}
+	}
+
+	&-item > div{
+		flex-flow:row wrap;
+	}
+
+	.card{
+		width:25%;
+		padding: 0 15px;
+		border:none;
+		margin-bottom: 60px;
+
+		&-header{
+			padding:0;
+			background: none;
+			border:none;
+			padding-bottom: 20px;
+
+			@media screen and (max-width: 1030px){
+				flex-direction: column;
+   	 			align-items: flex-start !important;
+
+   	 			.stars{
+					margin-top:10px;
+				}
+			}
+
+			.name p{
+				font-size: 16px;
+				color:$text-black;
+				padding-left: 12px;
+				font-weight: 400;
+			}
+		}
+
+		&-content p{
+			font-weight: 300;
+			font-size: 13px;
+			color:$text-grey;
+			text-align: left;
+		}
+	}
+}
+

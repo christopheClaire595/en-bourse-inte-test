@@ -1,0 +1,68 @@
+.header {
+	height: 690px;
+	background: url('../images/header-bg-img.png') no-repeat right bottom;
+	background-size: cover;
+
+	&-text{
+	    padding-top: 63px;
+
+	    &__top{
+		    width: 100%;
+		    padding-bottom: 56px;
+		    padding-left: 40px;
+		}
+
+		&__bottom{
+			&-left{
+				padding-left: 60px;
+
+				p {
+					color:white;
+					font-size: 31px;
+					margin-bottom: 50px;
+
+					@media screen and (max-width: 1030px){
+						font-size: 22px;
+					}
+
+					span{
+						display: block;
+					}
+				}
+
+				.text-1{
+					font-size: 39px;
+
+					@media screen and (max-width: 1030px){
+						font-size: 28px;
+					}
+				}
+
+				.text-2{
+					font-size: 21px;
+					@media screen and (max-width: 1030px){
+						font-size: 17px;
+					}
+				}
+
+				.text-3{
+					font-size: 33px;
+					@media screen and (max-width: 1030px){
+						font-size: 23px;
+					}
+				}
+			}
+
+			&-right {
+				@media screen and (max-width: 1030px){
+					display: flex;
+    				justify-content: center;
+
+    				img{
+				   		 max-width: 85%;
+					}
+				}
+			}
+		}
+	}
+}

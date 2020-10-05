@@ -1,0 +1,88 @@
+body{
+	overflow-x: hidden;
+}
+
+
+.container{
+	@media screen and (max-width: 1030px){
+		max-width: 100%;
+		padding: 0 40px;
+	}
+}
+
+p,h1{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.green{
+	color: $green;
+}
+
+.light-weight{
+	font-weight: $light-weight;
+}
+
+.regular-weight{
+	font-weight: $regular-weight;
+}
+
+.bold-weight{
+	font-weight: $bold-weight;
+}
+
+.extra-bold-weight{
+	font-weight: $extra-bold-weight;
+}
+
+.black-weight{
+	font-weight: $black-weight;
+}
+
+
+.no-padding{
+	padding:0;
+}
+
+.no-margin{
+	margin:0;
+}
+
+.la-star{
+	color: $star-color;
+}
+
+
+.header .btn-primary, .cards .btn-primary{
+	background-color: $color-primary;
+	border: none;
+	font-size: 18px;
+	padding: 21px 75px;
+	font-weight: 400;
+
+	@media screen and (max-width: 1030px){
+		padding: 21px 35px;
+	}
+}
+
+.form-decoration{
+	position: absolute;
+	z-index: 2;
+
+	img{
+		max-width: 70%;
+	}
+
+	&.rounded{
+		display: flex;
+	    justify-content: flex-end;
+		top: 56%;
+		right:0;
+		transform:translateY(-50%);
+	}
+
+	&.square{
+		top:33%;
+		left:0;
+		transform:translateY(-50%);
+	}
+}

@@ -1,0 +1,55 @@
+{
+  "name": "en-bourse-inte-test",
+  "version": "1.0.0",
+  "description": "## How to participate ?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopheClaire595/en-bourse-inte-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopheClaire595/en-bourse-inte-test/issues"
+  },
+  "homepage": "https://github.com/christopheClaire595/en-bourse-inte-test#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "gulp-cache": "^1.1.3",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-iconfont": "^10.0.2",
+    "gulp-iconfont-css": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-resolve-dependencies": "^3.0.1",
+    "imagemin": "^7.0.1",
+    "imagemin-giflossy": "^5.1.10",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.1",
+    "imagemin-zopfli": "^7.0.0",
+    "jquery": "3.3.1",
+    "popper.js": "1.14.3",
+    "reflex-grid": "^2.0.4",
+    "rename": "^1.0.4",
+    "run-sequence": "^2.2.1",
+    "undertaker": "^1.2.1"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-scss-lint": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "merge-stream": "^1.0.1",
+    "node-sass": "^4.14.1",
+    "slick-carousel": "^1.8.1"
+  }
+}
