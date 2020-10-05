@@ -1,3 +1,74 @@
-.red-text {
-	color: red;
+p,h1{
+	font-family: 'Montserrat', sans-serif;
 }
+.header {
+	height: 690px;
+	background: url('img/header-bg-img.png') no-repeat right bottom;
+	background-size: cover;
+}
+
+.header-text{
+    padding-top: 63px;
+}
+
+.header-text__top{
+    width: 100%;
+    max-width: 70%;
+    padding-bottom: 56px;
+}
+
+
+.header-text__bottom-left{
+	padding-left: 60px;
+}
+
+.header-text__bottom-left p{
+
+	color:white;
+	font-size: 31px;
+	margin-bottom: 50px;
+}
+
+
+.header-text__bottom-left .btn-primary {
+	background-color: #fd942e;
+	border: none;
+	font-size: 18px;
+	padding: 21px 75px;
+}
+
+
+.header-text__bottom-left p span{
+	display: block;
+
+}
+
+.header-text__bottom-left .text-1{
+	font-size: 39px;
+}
+
+.header-text__bottom-left .text-2{
+	font-size: 21px;
+}
+
+.header-text__bottom-left .text-3{
+	font-size: 33px;
+}
+
+.green{
+	color: #8fc642;
+}
+
+.encart-title h1{
+	padding: 130px 0 10px ;
+	font-size: 48px;
+}
+
+.encart-title p{
+	font-size: 16px;
+	padding: 0 50px;
+}
+
+
+
+
