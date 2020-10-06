@@ -84,6 +84,7 @@ gulp.task('sass', function () {
                 'Opera >= 12']
         })]))
         .pipe(gulp.dest('assets/css'))
+        .pipe(cleanCss())
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('assets/css'));
 });
